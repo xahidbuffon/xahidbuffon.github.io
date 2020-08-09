@@ -114,8 +114,7 @@
 												<div class="col-6 col-12-small">
 													<p align="justify">
 													In this project, we design a fully-convolutional conditional GAN-based model for fast underwater image enhancement: <strong>FUnIE-GAN</strong>. We supervise its adversarial training by formulating an objective function that evaluates the perceptual image quality based on its global content, color, local texture, and style information.
-													We also present <strong>EUVP</strong>, a large-scale dataset of a paired and an unpaired collection of underwater images (of poor and good quality) that are captured using seven different cameras over various visibility conditions during oceanic explorations and human-robot collaborative experiments. The dataset and relevant information can be found <a href="http://irvlab.cs.umn.edu/resources/euvp-dataset">here</a>. <br> <br>
-
+													We also present <strong>EUVP</strong>, a large-scale dataset of a paired and an unpaired collection of underwater images (of poor and good quality) that are captured using seven different cameras over various visibility conditions during oceanic explorations and human-robot collaborative experiments. The dataset and relevant information can be found <a href="http://irvlab.cs.umn.edu/resources/euvp-dataset">here</a>. <br> 
 													<i>
 														&nbsp; <strong><i class="fas fa-truck-monster"></i> &nbsp; Latest:</strong> FUnIE-GAN is now running on our <a href="http://irvlab.cs.umn.edu/minnebot">Aqua-8 MinneBot</a><br>
 														&nbsp; <i class="fas fa-truck-monster"></i> &nbsp; ...and soon to be ported on the <a href="http://irvlab.cs.umn.edu/other-projects/loco-auv">LoCO AUV</a>
@@ -158,23 +157,27 @@
 												</div>
 												<div class="col-5 col-12-small">
 													<p align="justify">
-													Single Image Super-Resolution (SISR) allows zooming-in interesting image regions for detailed visual perception. 
-													In this project, we design a deep residual network-based generative model for 2x, 4x, and 8x SISR of underwater imagery. We provide a generative and an adversarial training pipeline for the model, which we refer to as <strong>SRDRM</strong> and <strong>SRDRM-GAN</strong>, respectively.  <br> <br>
-													<i><strong><i class="fas fa-check"></i> &nbsp; Update: </strong> accepted for publication at the <a href="http://icra2020.org/">ICRA-2020</a> </i>  
+													Single Image Super-Resolution (<strong>SISR</strong>) allows zooming-in interesting image regions for detailed visual perception. 
+													In this project, we design a deep residual network-based generative model for 2x, 4x, and 8x SISR of underwater imagery. We provide a generative and an adversarial training pipeline for the model, which we refer to as <strong>SRDRM</strong> and <strong>SRDRM-GAN</strong>, respectively.  <br>
+													&nbsp; <i><strong><i class="fas fa-check-circle"></i> &nbsp; Update: </strong> accepted for publication at the <a href="http://icra2020.org/">ICRA-2020</a> </i>  
 													</p>
 												</div>
 											</div>
 
 											<p align="justify">
 											In our implementation, both SRDRM and SRDM-GAN learn to generate 640 x 480 images from respective inputs of size 320 x 240, 160 x 120, or 80 x 60. 
-											For the supervised training, we use natural underwater images which we collected by several oceanic explorations and field trials. We also included images from publicly available online media resources such as <i class="fab fa-youtube"></i> YouTube and <i class="fab fa-flickr"></i> Flickr. We released this compiled dataset named <strong>USR-248</strong> for academic research purposes <a href="http://irvlab.cs.umn.edu/resources/usr-248-dataset">here</a>.
+											For the supervised training, we use natural underwater images which we collected by several oceanic explorations and field trials. We also included images from publicly available online media resources such as <i class="fab fa-youtube"></i> YouTube and <i class="fab fa-flickr"></i> Flickr. We have released this compiled dataset named <strong>USR-248</strong> for academic research purposes <a href="http://irvlab.cs.umn.edu/resources/usr-248-dataset">here</a>.
 											</p>
 
-											<a href="#SRDRM" class="image"><img src="images/srdrm_3a.jpg" alt="" /></a>
+											<div class="row">
+												<div class="col-12 col-12-medium">
+												<a href="#SRDRM" class="image"><img src="images/srdrm_3a.jpg" alt="" /></a>
+												</div>
+											</div>
 
 											<p align="justify">
-												We validate the effectiveness of SRDRM and SRDRM-GAN through qualitative and quantitative experiments and compare the results with several state-of-the-art models' performances. 
-												We also analyze their practical feasibility for applications such as scene understanding and attention modeling in noisy visual conditions. Please refer to the <a href="https://arxiv.org/pdf/1909.09437.pdf">paper</a> for detailed results and performance analysis.
+												We validate the effectiveness of SRDRM and SRDRM-GAN through qualitative and quantitative experiments and compare the results with several state-of-the-art models. 
+												We also analyze their practical feasibility for applications such as scene understanding and attention modeling in noisy visual conditions. See this <a href="https://youtu.be/LrmhR25mNU8">Virtual Talk</a> for more information and refer to the <a href="https://arxiv.org/pdf/1909.09437.pdf">paper</a> for detailed results and performance analysis. 
 											</p>
 											
 											
@@ -196,8 +199,8 @@
 												<div class="col-7 col-12-small">
 													<p align="justify">
 													In this project, we propose a method to determine the 3D relative pose of pairs of communicating robots by using human pose-based key-points as correspondences. We adopt a <i>leader-follower</i> framework, where at first, the leader robot visually detects and triangulates the key-points using the state-of-the-art pose detector named <strong>OpenPose</strong>. Afterward, the follower robots match the corresponding 2D projections on their respective calibrated cameras and find their relative poses by solving the perspective-n-point (<strong>PnP</strong>) problem. 
-													<br> <br>
-													In the proposed method, we design an efficient <strong>person re-identification</strong> technique for associating the mutually visible humans in the scene. Additionally, we present an iterative optimization algorithm to refine the associated key-points based on their local structural properties in the image space. 
+													In the proposed method, we design an efficient <strong>person re-identification</strong> technique for associating the mutually visible humans in the scene. Additionally, we present an iterative optimization algorithm to refine the associated key-points based on their local structural properties in the image space. <br>
+													&nbsp; <i><strong><i class="fas fa-check-double"></i> &nbsp; Update: </strong> into the second round of review at the <a href="https://www.springer.com/journal/10514">Autonomous Robots (AuRo)</a> </i>  
 													</p>
 												</div>
 											</div>
@@ -230,7 +233,11 @@
 												<a href="https://arxiv.org/pdf/1803.08202.pdf">ArXiv</a> &nbsp; 
 												<a href="files/islam2019person.txt">Bibliography</a> 
 											</p>
-											<a href="#PFollow" class="image"><img src="images/ppic.jpg" alt="" /></a>
+											<div class="row">
+												<div class="col-12 col-12-medium">
+												<a href="#PFollow" class="image"><img src="images/ppic.jpg" alt="" /></a>
+												</div>
+											</div>
 											<p align="justify">
 											A wide range of human-robot collaborative applications in diverse domains such as manufacturing, health care, the entertainment industry, and social interactions, require an autonomous robot to follow its human companion. Different working environments and applications pose diverse challenges by adding constraints on the choice of sensors, the degree of autonomy, and dynamics of a person-following robot. Researchers have addressed these challenges in many ways and contributed to the development of a large body of literature. 
 											This paper provides a comprehensive overview of the literature by categorizing different aspects of person-following by autonomous robots. Also, the corresponding operational challenges are identified based on various design choices for <strong>ground</strong>, <strong>underwater</strong>, and <strong>aerial</strong> scenarios. In addition, state-of-the-art methods for <strong>perception</strong>, <strong>planning</strong>, <strong>control</strong>, and <strong>interaction</strong> are elaborately discussed and their applicability in varied operational scenarios are presented. Then, some of the prominent methods are qualitatively compared, corresponding practicalities are illustrated, and their feasibility is analyzed for various usecases. Furthermore, several <strong>prospective application areas</strong> are identified, and <strong>open problems</strong> are highlighted for future research.
@@ -288,13 +295,13 @@
 												</div>
 												<div class="col-4 col-12-small">
 													<p align="justify">
-													<strong>Robo-Chat-Gest</strong> introduces a real-time robot programming and parameter reconfiguration method for autonomous underwater robots using a set of intuitive and meaningful hand gestures. It is a syntactically simple framework and computationally more efficient than other existing grammar-based approaches.  
+													<strong>Robo-Chat-Gest</strong> introduces a real-time robot programming and parameter reconfiguration method for autonomous underwater robots using a set of intuitive and meaningful hand gestures. It is a syntactically simple framework and computationally more efficient than other existing grammar-based approaches. Find the Robo-Chat-Gest language rules in <a href="https://ieeexplore.ieee.org/document/8461197">this paper</a>!
 												</div>
 											</div>
 											<p align="justify">
-												The major components of Robo-Chat-Gest are: (a) a simple set of hand-gestures to instruction mapping rules, (b) a region selection mechanism to detect prospective hand gestures in the image-space, (c) a CNN-based model for robust hand gesture recognition, and (d) a Finite-State Machine (FSM) to efficiently decode complete instructions from the sequence of gestures. 
+												The major components of Robo-Chat-Gest are: i) a simple set of hand-gestures to instruction mapping rules, (ii) a region selection mechanism to detect prospective hand gestures in the image-space, (iii) a CNN-based model for robust hand gesture recognition, and (iv) a Finite-State Machine (FSM) to efficiently decode complete instructions from the sequence of gestures. 
 												The key aspect of this framework is that it can be easily adopted by divers for communicating simple instructions to underwater robots without using artificial tags such as fiducial markers or requiring them to memorize a potentially complex set of language rules. 
-												Please refer to <a href="https://ieeexplore.ieee.org/document/8461197">this paper</a> for the design and implementation details of Robo-Chat-Gest; moreover, its practical utility and usability benefits are analysed in <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/rob.21837">this paper</a>.   
+												We thoroughly analyze and discuss its practical utility and usability benefits in <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/rob.21837">this paper</a>.   
 											</p>
 										</article>
 									</div>
@@ -307,15 +314,16 @@
 									</header>
 									<div class="mini-posts", id="UGAN">
 										<article>
-											<h3>UGAN: Underwater Image Enhancement by Generative Adversarial Networks</h3>
+											<h3>UGAN: Underwater Image Enhancement by Generative Adversarial Networks (GANs)</h3>
 											<div class="row">
-												<div class="col-8 col-12-small">
+												<div class="col-7 col-12-small">
 													<p align="justify">
-													I worked with my former colleague <a href="https://cameronfabbri.github.io/">Cameron Fabbri</a> on his <a href="https://ieeexplore.ieee.org/document/8460552">UGAN paper  (ICRA 2018)</a>, which introduced a method to improve the quality of underwater imagery using Generative Adversarial Networks (GANs). The objective was to enhance noisy input images to boost the performance of various vision-based tasks such as detection and tracking. I was involved in quantifying these performance margins and in relevant experimental evaluations. 
-													The proposed UGAN model and the associated training and evaluation pipelines can be found in <a href="https://github.com/cameronfabbri/Underwater-Color-Correction">this GitHub repository</a>.
+													I worked in this project lead by our former colleague <a href="https://cameronfabbri.github.io/">Cameron Fabbri</a> who designed a GAN-based model (named UGAN) to improve the quality of underwater imagery. The objective was to enhance noisy input images to boost the performance of various vision-based tasks such as detection and tracking; I was involved in the emperical analysis of these performance margins. <br> <br>
+													
+													The <a href="https://ieeexplore.ieee.org/document/8460552">UGAN paper  (ICRA 2018)</a> is one of the most cited papers on underwater image enhancement in recent times; check out the UGAN models and associated training pipelines in <a href="https://github.com/cameronfabbri/Underwater-Color-Correction">this repository</a>.
 													</p>
 												</div>
-												<div class="col-4 col-12-medium">
+												<div class="col-5 col-12-medium">
 													<a href="#UGAN" class="image"><img src="images/ugan.png" alt=""/></a>
 												</div>
 											</div>
@@ -327,15 +335,18 @@
 										<article>
 											<h3>Underwater Multi-Robot Convoying using Visual Tracking by Detection</h3>
 											<div class="row">
-											<div class="col-8 col-12-small">
+											<div class="col-7 col-12-small">
 												<p align="justify">
-												I collaborated with my peers at the <a href="http://www.cim.mcgill.ca/~mrl/index.html">Mobile Robotics Lab @McGill University</a> on this project lead by <a href="http://www.cs.toronto.edu/~florian/">Florian Shkurti</a> (now an Assistant Professor <a href="https://web.cs.toronto.edu/">@UToronto</a>). 
-												This project presented a robust multi-robot convoying approach relying on visual detection of the leading agent, thus enabling target following in unstructured 3D environments. 
-												I was involved in the evaluation of <a href="http://ieeexplore.ieee.org/document/7989516/">MDPM tracker</a>), which was used in the empirical performance comparison of other contemporary visual trackers.    
-												Please check out the <a href="https://ieeexplore.ieee.org/document/8206280/">the paper (IROS 2017)</a> and <a href="http://www.cim.mcgill.ca/~mrl/robot_tracking/">project page</a> for more information. 
+												I was involved in <a href="http://www.cim.mcgill.ca/~mrl/robot_tracking/">this project</a> of <a href="http://www.cim.mcgill.ca/~mrl/index.html">Mobile Robotics Lab @McGill University</a> lead by <a href="http://www.cs.toronto.edu/~florian/">Florian Shkurti</a> (now an Assistant Professor <a href="https://web.cs.toronto.edu/">@UToronto</a>). 
+												He introduced a robust multi-robot convoying approach relying on visual detection of the leading agent, thus enabling target following in unstructured 3D environments. 
+												The solution was tested on extensive footage of an underwater swimming robot in ocean settings. An empirical comparison of multiple tracker variants was presented, which included several CNN-based models as well as frequency-based model-free trackers.  
+												<br> <br>
+
+
+												I took part in the evaluation of our frequency-based <a href="http://ieeexplore.ieee.org/document/7989516/">MDPM tracker</a> for the emperical analysis. A video demonstration of the multi-robot convoying can be seen <a href="https://youtu.be/Em7V-vBApHc">here</a>; please refer to the <a href="https://ieeexplore.ieee.org/document/8206280/">paper (IROS 2017)</a> for more information. 
 												</p>
 											</div>
-											<div class="col-4 col-12-medium">
+											<div class="col-5 col-12-medium">
 													<a href="#CONVOY" class="image"><img src="images/convoy.png" alt=""/></a>
 											</div>
 
@@ -350,7 +361,7 @@
 											<div class="col-5 col-12-medium">
 												<h3><i class="fas fa-user-friends"></i> Other Collaborators</h3>
 												<p align="justify">
-													I regulary collaborate with the current Ph.D. students at the IRVLAB. In particular, I heavily interacted with <a href="http://irvlab.cs.umn.edu/people/chelsey-edge">Chelsey Edge</a>, <a href="https://sites.google.com/view/sadman-sakib-enan/home">Sadman Sakib Enan</a>, <a href="http://irvlab.cs.umn.edu/people/michael-fulton">Michael Fulton</a>, and <a href="https://jungseokhong.github.io/">Jungseok Hong</a> on several <a href="Proj">projects</a> in the last four years. I am currently working with <a href="https://www.linkedin.com/in/jiawei-mo/">Jiawei Mo</a> and <a href="http://irvlab.cs.umn.edu/people/karin-de-langis">Karin de Langis</a> on separate projects. Also, <a href="https://www.linkedin.com/in/ruobing-wang-054562157/">Ruobing Wang</a> is working with me on the <a href="https://www.linkedin.com/in/ruobing-wang-054562157/">VAM</a> project.
+													I regulary collaborate with the current Ph.D. students at the IRVLAB. In particular, I heavily interacted with <a href="http://irvlab.cs.umn.edu/people/chelsey-edge">Chelsey Edge</a>, <a href="https://sites.google.com/view/sadman-sakib-enan/home">Sadman Sakib Enan</a>, <a href="http://irvlab.cs.umn.edu/people/michael-fulton">Michael Fulton</a>, and <a href="https://jungseokhong.github.io/">Jungseok Hong</a> on several <a href="Proj">projects</a> in the last few years. I am currently working with <a href="https://www.linkedin.com/in/jiawei-mo/">Jiawei Mo</a> and <a href="http://irvlab.cs.umn.edu/people/karin-de-langis">Karin de Langis</a> on separate projects. Also, <a href="https://www.linkedin.com/in/ruobing-wang-054562157/">Ruobing Wang</a> is working with me on the <a href="https://www.linkedin.com/in/ruobing-wang-054562157/">VAM</a> project.
 												</p>
 											</div>
 											<div class="col-7 col-12-small">
