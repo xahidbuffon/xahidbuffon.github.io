@@ -1,0 +1,7 @@
+
+article{islam2019robot,
+  title={{Robot-to-Robot Relative Pose Estimation using Humans as Markers}},
+  author={Islam, Md Jahidul and Mo, Jiawei and Sattar, Junaed},
+  journal={ArXiv preprint arXiv:1903.09766},
+  year={2019}
+ }

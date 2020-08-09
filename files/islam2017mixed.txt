@@ -1,0 +1,8 @@
+@inproceedings{islam2017mixed,
+  title={{Mixed-domain Biological Motion Tracking for Underwater Human-robot Interaction}},
+  author={Islam, Md Jahidul and Sattar, Junaed},
+  booktitle={{IEEE International Conference on Robotics and Automation (ICRA)}},
+  pages={4457--4464},
+  year={2017},
+  organization={IEEE}
+}

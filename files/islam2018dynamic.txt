@@ -1,0 +1,10 @@
+
+@inproceedings{islam2018dynamic,
+  title={{Dynamic Reconfiguration of Mission Parameters in Underwater Human-Robot Collaboration}},
+  author={Islam, Md Jahidul and Ho, Marc and Sattar, Junaed},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={1--8},
+  year={2018},
+  organization={IEEE}
+}
+

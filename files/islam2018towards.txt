@@ -1,0 +1,12 @@
+
+@article{islam2018towards,
+  title={{Toward a Generic Diver-Following Algorithm: Balancing Robustness and Efficiency in Deep Visual Detection}},
+  author={Islam, Md Jahidul and Fulton, Michael and Sattar, Junaed},
+  journal={{IEEE Robotics and Automation Letters (RA-L)}},
+  volume = {4},
+  number = {1},
+  pages = {113--120},
+  doi = {10.1109/LRA.2018.2882856},
+  year={2018},
+  publisher={IEEE}
+}

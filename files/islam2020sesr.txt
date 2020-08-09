@@ -1,0 +1,7 @@
+
+@inproceedings{islam2020sesr,
+    title={{Simultaneous Enhancement and Super-Resolution of Underwater Imagery for Improved Visual Perception}},
+    author={Islam, Md Jahidul and Luo, Peigen and Sattar, Junaed},
+    booktitle={Robotics: Science and Systems (RSS). ArXiv:2002.01155},
+    year={2020}
+}
