@@ -78,22 +78,22 @@
 												</div>
 												<div class="col-9 col-12-medium">
 													<a href="#SESR" class="image"><img src="images/sesr_1.jpg" alt="" /></a>
-											<a href="#SESR" class="image"><img src="images/sesr_2.jpg" alt="" /></a>
+													<a href="#SESR" class="image"><img src="images/sesr_2.jpg" alt="" /></a>
 												</div>
 											</div>
 											<p align="justify">
-											To supervise the large-scale training, we formulate a multi-modal objective function that addresses the chrominance-specific underwater color degradation, lack of image sharpness, and loss in high-level feature representation. It is also supervised to learn salient foreground regions in the image, which in turn guides the network to learn global contrast enhancement. Check out our <a href="https://youtu.be/8zBdFxaK4Os">Spotlight Talk</a> for more details! 
+											To supervise the large-scale training, we formulate a multi-modal objective function that addresses the chrominance-specific underwater color degradation, lack of image sharpness, and loss in high-level feature representation. It is also supervised to learn salient foreground regions in the image, which in turn guides the network to learn global contrast enhancement. Our <a href="https://youtu.be/8zBdFxaK4Os">Spotlight Talk</a> has more details! 
 											</p>
 
 											<div class="row">
 												<div class="col-7 col-12-medium">
-													<iframe width="640" height="360" src="https://www.youtube.com/embed/wEkTu2CPW-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+													<a href="#SESR" class="image"><img src="images/sesr_n.jpg" alt="" /></a>
 												</div>
 												<div class="col-5 col-12-small">
 												<p align="justify">
-												Moreover, we present <strong>UFO-120 Dataset</strong>, the first dataset to facilitate large-scale SESR learning; it contains over 1500 training samples and a benchmark test set of 120 samples.
-												By thorough experimental evaluation on UFO-120 and several other standard datasets, we demonstrate that Deep SESR outperforms the existing solutions for underwater image enhancement and super-resolution. We also validate its generalization performance on several test cases that include underwater images with diverse spectral and spatial degradation levels, and also terrestrial images with unseen natural objects. Please refer to the <a href="https://roboticsconference.org/program/papers/18/">paper</a> for detailed demonstrations and results. 
-											    </p>
+												Moreover, we present <strong>UFO-120</strong>, the first dataset to facilitate large-scale SESR learning; it contains over 1500 training samples and a benchmark test set of 120 samples.
+												By thorough experimental evaluation on UFO-120 and several other standard datasets, we demonstrate that Deep SESR outperforms the existing solutions for underwater image enhancement and super-resolution. We also validate its generalization performance on several test cases that include underwater images with diverse spectral and spatial degradation levels, and also terrestrial images with unseen natural objects. See <a href="https://youtu.be/wEkTu2CPW-g">this video</a> for some demonstrations and refer to the <a href="https://roboticsconference.org/program/papers/18/">paper</a> for detailed results. 
+											    </p> 
 												</div>
 											</div>  
 										</article>
@@ -111,38 +111,34 @@
 												<a href="http://irvlab.cs.umn.edu/resources/euvp-dataset">EUVP Dataset</a>
 											</p>
 											<div class="row">
+												<div class="col-6 col-12-small">
+													<p align="justify">
+													In this project, we design a fully-convolutional conditional GAN-based model for fast underwater image enhancement: <strong>FUnIE-GAN</strong>. We supervise its adversarial training by formulating an objective function that evaluates the perceptual image quality based on its global content, color, local texture, and style information.
+													We also present <strong>EUVP</strong>, a large-scale dataset of a paired and an unpaired collection of underwater images (of poor and good quality) that are captured using seven different cameras over various visibility conditions during oceanic explorations and human-robot collaborative experiments. The dataset and relevant information can be found <a href="http://irvlab.cs.umn.edu/resources/euvp-dataset">here</a>. <br> <br>
+
+													<i>
+														&nbsp; <strong><i class="fas fa-truck-monster"></i> &nbsp; Latest:</strong> FUnIE-GAN is now running on our <a href="http://irvlab.cs.umn.edu/minnebot">Aqua-8 MinneBot</a><br>
+														&nbsp; <i class="fas fa-truck-monster"></i> &nbsp; ...and soon to be ported on the <a href="http://irvlab.cs.umn.edu/other-projects/loco-auv">LoCO AUV</a>
+													</i>   
+													</p>
+												</div>
 												<div class="col-6 col-12-medium">
 													<a href="#FUNIE" class="image"><img src="images/funie_gif1.gif" alt="" /></a>
 												</div>
+											</div>
+
+											<div class="row">
+												<div class="col-6 col-12-medium">
+													<a href="#FUNIE" class="image"><img src="images/funie_1b.jpg" alt="" /></a> 
+												</div>
 												<div class="col-6 col-12-small">
-													<p align="justify">
-													In this project, we design a fully-convolutional conditional GAN-based model for fast underwater image enhancement: <strong>FUnIE-GAN</strong>. We supervise its adversarial training by formulating an objective function that evaluates the perceptual image quality based on its global content, color, local texture, and style information. <br> <br>
-													We also present <strong>EUVP</strong>, a large-scale dataset of a paired and an unpaired collection of underwater images (of poor and good quality) that are captured using seven different cameras over various visibility conditions during oceanic explorations and human-robot collaborative experiments. The dataset and relevant information can be found <a href="http://irvlab.cs.umn.edu/resources/euvp-dataset">here</a>.    
-													</p>
+													<a href="#FUNIE" class="image"><img src="images/funie_1a.jpg" alt="" /></a> 
 												</div>
 											</div>
 
 											<p align="justify">
-											By thorough experiments, we demonstrate that FUnIE-GAN can learn to enhance perceptual image quality from both paired and unpaired training. More importantly, the enhanced images significantly boost the performance of several underwater visual perception tasks such as object detection, human pose estimation, and saliency prediction. Please refer to the <a href="https://arxiv.org/pdf/1903.09766.pdf">paper</a> for these experimental analysis and detailed results.
+											By thorough experiments, we demonstrate that FUnIE-GAN can learn to enhance perceptual image quality from both paired and unpaired training. More importantly, the enhanced images significantly boost the performance of several underwater visual perception tasks such as object detection, human pose estimation, and saliency prediction. In addition to providing state-of-the-art image enhancement performance, FUnIE-GAN offers <strong>148 FPS</strong> inference rate on Nvidia GTX 1080, <strong>48 FPS</strong> on Jetson AGX Xavier, and over <strong>25 FPS</strong> on Jetson TX2. Such fast run-times, particularly on the single-board platforms, makes it ideal for real-time use in robotic applications. Check out <a href="https://github.com/xahidbuffon/FUnIE-GAN">this repository</a> for the FUnIE-GAN models and associated training pipelines. 
 											</p>
-
-											<div class="row">
-												<div class="col-6 col-12-small">
-													<p align="justify">
-													In addition to providing state-of-the-art enhancement performance, FUnIE-GAN offers <strong>148 FPS</strong> inference rate on Nvidia GTX 1080, <strong>48 FPS</strong> on Nvidia Jetson AGX Xavier, and over <strong>25 FPS</strong> on Nvidia Jetson TX2. Such fast run-times, particularly on the single-board platforms, makes it ideal for real-time use in robotic applications. Check out <a href="https://github.com/xahidbuffon/FUnIE-GAN">this repository</a> for the FUnIE-GAN models and associated training pipelines. <br> <br>
-
-													<i>
-														<strong><i class="fas fa-truck-monster"></i> &nbsp; Latest:</strong> FUnIE-GAN is now running on our <a href="http://irvlab.cs.umn.edu/minnebot">Aqua-8 MinneBot</a><br>
-														<i class="fas fa-truck-monster"></i> &nbsp; ...and soon to be ported on the <a href="http://irvlab.cs.umn.edu/other-projects/loco-auv">LoCO AUV</a>
-													</i>
-
-													</p>
-													
-												</div>
-												<div class="col-6 col-12-medium">
-													<a href="#FUNIE" class="image"><img src="images/funie_1b.jpg" alt="" /></a> 
-												</div>
-											</div>
 										</article>
 									</div>
 									<hr class="major" />

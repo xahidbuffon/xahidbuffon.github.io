@@ -1,0 +1,9 @@
+
+@inproceedings{fabbri2018enhancing,
+  title={{Enhancing Underwater Imagery using Generative Adversarial Networks}},
+  author={Fabbri, Cameron and Islam, Md Jahidul and Sattar, Junaed},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={7159--7165},
+  year={2018},
+  organization={IEEE}
+}
