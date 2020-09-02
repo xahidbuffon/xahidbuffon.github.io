@@ -139,49 +139,6 @@
 									</div>
 									<hr class="major" />
 
-									<div class="mini-posts", id="SRDRM">
-										<article>
-											<h3>SRDRM: Underwater Image Super-Resolution using Deep Residual Multipliers</h3>
-											<p>
-												<a href="https://arxiv.org/pdf/1909.09437.pdf">ArXiv</a> &nbsp; 
-												<a href="files/islam2020srdrm.txt">Bibliography</a> &nbsp;
-												<a href="https://github.com/xahidbuffon/SRDRM">GitHub</a> &nbsp;
-												<a href="http://irvlab.cs.umn.edu/resources/usr-248-dataset">USR-248 Dataset</a> 
-											</p>
-											<div class="row">
-												<div class="col-7 col-12-medium">
-													<a href="#SRDRM" class="image"><img src="images/srdrm_1b.jpg" alt="" /></a>
-												</div>
-												<div class="col-5 col-12-small">
-													<p align="justify">
-													Single Image Super-Resolution (<strong>SISR</strong>) allows zooming-in interesting image regions for detailed visual perception. 
-													In this project, we design a deep residual network-based generative model for 2x, 4x, and 8x SISR of underwater imagery. We provide a generative and an adversarial training pipeline for the model, which we refer to as <strong>SRDRM</strong> and <strong>SRDRM-GAN</strong>, respectively.  <br>
-													&nbsp; <i><strong><i class="fas fa-check-circle"></i> &nbsp; Update: </strong> accepted for publication at the <a href="http://icra2020.org/">ICRA-2020</a> </i>  
-													</p>
-												</div>
-											</div>
-
-											<p align="justify">
-											In our implementation, both SRDRM and SRDM-GAN learn to generate 640 x 480 images from respective inputs of size 320 x 240, 160 x 120, or 80 x 60. 
-											For the supervised training, we use natural underwater images which we collected by several oceanic explorations and field trials. We also included images from publicly available online media resources such as <i class="fab fa-youtube"></i> YouTube and <i class="fab fa-flickr"></i> Flickr. We have released this compiled dataset named <strong>USR-248</strong> for academic research purposes <a href="http://irvlab.cs.umn.edu/resources/usr-248-dataset">here</a>.
-											</p>
-
-											<div class="row">
-												<div class="col-12 col-12-medium">
-												<a href="#SRDRM" class="image"><img src="images/srdrm_3a.jpg" alt="" /></a>
-												</div>
-											</div>
-
-											<p align="justify">
-												We validate the effectiveness of SRDRM and SRDRM-GAN through qualitative and quantitative experiments and compare the results with several state-of-the-art models. 
-												We also analyze their practical feasibility for applications such as scene understanding and attention modeling in noisy visual conditions. See this <a href="https://youtu.be/LrmhR25mNU8">Virtual Talk</a> for more information and refer to the <a href="https://arxiv.org/pdf/1909.09437.pdf">paper</a> for detailed results and performance analysis. 
-											</p>
-											
-											
-										</article>
-									</div>
-									<hr class="major" />
-
 									<div class="mini-posts", id="R2R">
 										<article>
 											<h3>R2R-OpenPose: Robot-to-robot Relative Pose Estimation from Human Body-Pose</h3>
@@ -218,27 +175,6 @@
 												Finally, we discuss the relevant operational challenges of this approach and analyze its feasibility for multi-robot cooperative systems in human-dominated social settings and feature-deprived environments such as underwater. Please refer to the <a href="https://arxiv.org/pdf/1903.00820.pdf">paper</a> for further details. 
 											</p> 
 
-										</article>
-									</div>
-									<hr class="major" />
-
-									<div class="mini-posts", id="PFollow">
-										<article>
-											<h3>Person Following by Autonomous Robots: A Categorical Overview</h3>
-											<p>
-												<a href="https://journals.sagepub.com/doi/10.1177/0278364919881683">Paper (IJRR)</a> &nbsp;
-												<a href="https://arxiv.org/pdf/1803.08202.pdf">ArXiv</a> &nbsp; 
-												<a href="files/islam2019person.txt">Bibliography</a> 
-											</p>
-											<div class="row">
-												<div class="col-12 col-12-medium">
-												<a href="#PFollow" class="image"><img src="images/ppic.jpg" alt="" /></a>
-												</div>
-											</div>
-											<p align="justify">
-											A wide range of human-robot collaborative applications in diverse domains such as manufacturing, health care, the entertainment industry, and social interactions, require an autonomous robot to follow its human companion. Different working environments and applications pose diverse challenges by adding constraints on the choice of sensors, the degree of autonomy, and dynamics of a person-following robot. Researchers have addressed these challenges in many ways and contributed to the development of a large body of literature. 
-											This paper provides a comprehensive overview of the literature by categorizing different aspects of person-following by autonomous robots. Also, the corresponding operational challenges are identified based on various design choices for <strong>ground</strong>, <strong>underwater</strong>, and <strong>aerial</strong> scenarios. In addition, state-of-the-art methods for <strong>perception</strong>, <strong>planning</strong>, <strong>control</strong>, and <strong>interaction</strong> are elaborately discussed and their applicability in varied operational scenarios are presented. Then, some of the prominent methods are qualitatively compared, corresponding practicalities are illustrated, and their feasibility is analyzed for various usecases. Furthermore, several <strong>prospective application areas</strong> are identified, and <strong>open problems</strong> are highlighted for future research.
-											</p>
 										</article>
 									</div>
 									<hr class="major" />
@@ -303,6 +239,110 @@
 										</article>
 									</div>
 								</section>
+
+								<section, id="DataPapers">
+								<hr class="major" />
+									<header class="major">
+										<h2>Review and Dataset Papers</h2>
+									</header>
+									<div class="mini-posts", id="SUIM">
+										<article>
+											<h3>Semantic Segmentation of Underwater Imagery: Dataset and Benchmark
+											</h3>
+											<p>
+												<a href="https://arxiv.org/pdf/2004.01241.pdf">ArXiv</a> &nbsp; 
+												<a href="files/islam2020suim.txt">Bibliography</a> &nbsp;
+												<a href="https://github.com/xahidbuffon/SUIM-Net">GitHub</a> &nbsp;
+												<a href="http://irvlab.cs.umn.edu/resources/suim-dataset">USR-248 Dataset</a> 
+											</p>
+											<div class="row">
+												<div class="col-6 col-12-small">
+													<p align="justify">
+													Semantic segmentation of underwater scenes and pixel-level detection of salient objects are critically important features for visually-guided AUVs. The existing solutions are either too application-specific or outdated, despite the rapid advancements of relevant literature in the terrestrial domain. In this project, we attempt to address these limitations by presenting the first large-scale dataset for semantic Segmentation of Underwater IMagery (<strong>SUIM</strong>) for general-purpose robotic applications. In the proposed SUIM dataset, we consider eight object categories: fish (and other vertebrates), coral reefs (and other invertebrates), aquatic plants, wrecks/ruins, human divers, robots/instruments, and sea-floor. 
+													It contains over 1500 natural underwater images and their ground truth semantic labels (human-annotated); it also includes a test set of 110 samples for benchmark evaluation. These images have been selected from large-scale datasets named <a href="http://irvlab.cs.umn.edu/resources/euvp-dataset">EUVP</a>, <a href="http://irvlab.cs.umn.edu/resources/usr-248-dataset">USR-248</a>, and <a href="http://irvlab.cs.umn.edu/resources/ufo-120-dataset">UFO-120</a>, which we previously released for underwater image enhancement and super-resolution tasks. The dataset and relevant resources are available at <a href="http://irvlab.cs.umn.edu/resources/suim-dataset">here</a>.
+ 													<br> 
+													&nbsp; <i><strong><i class="fas fa-check-circle"></i> &nbsp; Update: </strong> accepted for publication at the <a href="https://www.iros2020.org/">IROS-2020</a> </i>  
+													</p>
+												</div>
+												<div class="col-6 col-12-medium">
+													<a href="#SUIM" class="image"><img src="images/suim_fig12.jpg" alt="" /></a>
+												</div>
+												
+											</div>
+
+											<p align="justify">
+											 We also present a comprehensive benchmark evaluation of several state-of-the-art semantic segmentation approaches named DeepLab, PSPNet, UNet, SegNet, and FCN on the SUIM dataset. We configured several variants of these models, then evaluated and compared their performances based on standard metrics.   
+											 Additionally, we present a fully-convolutional encoder-decoder model named <strong>SUIM-Net</strong>, which offers a considerably faster run-time than the SOTA approaches while achieving competitive semantic segmentation performance. 
+											 Check out this <a href="#SUIM">repository</a> for more information and refer to the <a href="https://arxiv.org/pdf/2004.01241.pdf">paper</a> for detailed results and performance analysis. 
+											</p>
+										</article>
+									</div>
+									<hr class="major" />
+
+									<div class="mini-posts", id="SRDRM">
+										<article>
+											<h3>Underwater Image Super-Resolution using Deep Residual Multipliers</h3>
+											<p>
+												<a href="https://arxiv.org/pdf/1909.09437.pdf">ArXiv</a> &nbsp; 
+												<a href="files/islam2020srdrm.txt">Bibliography</a> &nbsp;
+												<a href="https://github.com/xahidbuffon/SRDRM">GitHub</a> &nbsp;
+												<a href="http://irvlab.cs.umn.edu/resources/usr-248-dataset">USR-248 Dataset</a> 
+											</p>
+											<div class="row">
+												<div class="col-7 col-12-medium">
+													<a href="#SRDRM" class="image"><img src="images/srdrm_1b.jpg" alt="" /></a>
+												</div>
+												<div class="col-5 col-12-small">
+													<p align="justify">
+													Single Image Super-Resolution (<strong>SISR</strong>) allows zooming-in interesting image regions for detailed visual perception. 
+													In this project, we design a deep residual network-based generative model for 2x, 4x, and 8x SISR of underwater imagery. We provide a generative and an adversarial training pipeline for the model, which we refer to as <strong>SRDRM</strong> and <strong>SRDRM-GAN</strong>, respectively.  <br>
+													&nbsp; <i><strong><i class="fas fa-check-circle"></i> &nbsp; Update: </strong> accepted for publication at the <a href="http://icra2020.org/">ICRA-2020</a> </i>  
+													</p>
+												</div>
+											</div>
+
+											<p align="justify">
+											In our implementation, both SRDRM and SRDM-GAN learn to generate 640 x 480 images from respective inputs of size 320 x 240, 160 x 120, or 80 x 60. 
+											For the supervised training, we use natural underwater images which we collected by several oceanic explorations and field trials. We also included images from publicly available online media resources such as <i class="fab fa-youtube"></i> YouTube and <i class="fab fa-flickr"></i> Flickr. We have released this compiled dataset named <strong>USR-248</strong> for academic research purposes <a href="http://irvlab.cs.umn.edu/resources/usr-248-dataset">here</a>.
+											</p>
+
+											<div class="row">
+												<div class="col-12 col-12-medium">
+												<a href="#SRDRM" class="image"><img src="images/srdrm_3a.jpg" alt="" /></a>
+												</div>
+											</div>
+
+											<p align="justify">
+												We validate the effectiveness of SRDRM and SRDRM-GAN through qualitative and quantitative experiments and compare the results with several state-of-the-art models. 
+												We also analyze their practical feasibility for applications such as scene understanding and attention modeling in noisy visual conditions. See this <a href="https://youtu.be/LrmhR25mNU8">Virtual Talk</a> for more information and refer to the <a href="https://arxiv.org/pdf/1909.09437.pdf">paper</a> for detailed results and performance analysis. 
+											</p>	
+										</article>
+									</div>
+									<hr class="major" />
+
+									<div class="mini-posts", id="PFollow">
+										<article>
+											<h3>Person Following by Autonomous Robots: A Categorical Overview</h3>
+											<p>
+												<a href="https://journals.sagepub.com/doi/10.1177/0278364919881683">Paper (IJRR)</a> &nbsp;
+												<a href="https://arxiv.org/pdf/1803.08202.pdf">ArXiv</a> &nbsp; 
+												<a href="files/islam2019person.txt">Bibliography</a> 
+											</p>
+											<div class="row">
+												<div class="col-12 col-12-medium">
+												<a href="#PFollow" class="image"><img src="images/ppic.jpg" alt="" /></a>
+												</div>
+											</div>
+											<p align="justify">
+											A wide range of human-robot collaborative applications in diverse domains such as manufacturing, health care, the entertainment industry, and social interactions, require an autonomous robot to follow its human companion. Different working environments and applications pose diverse challenges by adding constraints on the choice of sensors, the degree of autonomy, and dynamics of a person-following robot. Researchers have addressed these challenges in many ways and contributed to the development of a large body of literature. 
+											This paper provides a comprehensive overview of the literature by categorizing different aspects of person-following by autonomous robots. Also, the corresponding operational challenges are identified based on various design choices for <strong>ground</strong>, <strong>underwater</strong>, and <strong>aerial</strong> scenarios. In addition, state-of-the-art methods for <strong>perception</strong>, <strong>planning</strong>, <strong>control</strong>, and <strong>interaction</strong> are elaborately discussed and their applicability in varied operational scenarios are presented. Then, some of the prominent methods are qualitatively compared, corresponding practicalities are illustrated, and their feasibility is analyzed for various usecases. Furthermore, several <strong>prospective application areas</strong> are identified, and <strong>open problems</strong> are highlighted for future research.
+											</p>
+										</article>
+									</div>
+								</section>
+
+
+
 
 								<section, id="Colab">
 								<hr class="major" />
