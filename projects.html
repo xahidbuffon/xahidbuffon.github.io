@@ -40,20 +40,48 @@
 									<header class="major">
 										<h2>Selected Projects</h2>
 									</header>
-									<div class="mini-posts", id="VAM">
+									<div class="mini-posts", id="SVAM">
 										<article>
-											<h3>VAM: Visual Attention Modeling</h3>
+											<h3>SVAM: Saliency-guided Visual Attention Modeling</h3>
+											<p>
+												<a href="https://arxiv.org/pdf/2011.06252.pdf">ArXiv</a> &nbsp; 
+												<a href="files/islam2020svam.txt">Bibliography</a> &nbsp;
+												<a href="https://github.com/xahidbuffon/SVAM-Net">GitHub</a> &nbsp;
+												<a href="http://irvlab.cs.umn.edu/resources/usod-dataset">USOD Test Dataset</a> &nbsp;
+												<a href="https://youtu.be/SxJcsoQw7KI">Video Demo</a>
+											</p>
+											
 											<div class="row">
 												<div class="col-6 col-12-small">
 													<p align="justify">
-														<i>Where to look?</i>&mdash; is an intruiging problem of computer vision that deals with finding interesting or <i>salient</i> pixels in an image/video. 
-														For visually-guided robots, in particular, the <strong>Salient Object Detection (SOD)</strong> capability enables them to model spatial attention to eventually make important navigation decisions. We are working on a novel SOD model for real-time robotic applications; the initial results are promising and we wish to share exciting results soon. Till then, enjoy the <a href="https://youtu.be/9bZkp7q19f0">GANGNAM</a> saliency! 
+														<i>Where to look?</i>&mdash; is an intriguing problem of computer vision that deals with finding interesting or <i>salient</i> pixels in an image/video. 
+														As seen in this GANGNAM video!, the problem of <strong>Salient Object Detection (SOD)</strong> aims at identifying the most important or distinct objects in a scene. It is a successor to the human fixation prediction problem that aims to highlight pixels that human viewers would focus on at first glance.  
 													</p>
-													
 												</div>
 												<div class="col-6 col-12-medium">
-													<a href="#VAM" class="image"><img src="images/psy_gif.gif" alt=""/></a>
+													<a href="#SVAM" class="image"><img src="images/psy_gif.gif" alt=""/></a>
 												</div>
+												<p align="justify">
+													For visually-guided robots, the SOD capability enables them to model spatial attention to eventually make important navigation decisions. In this project, we present a holistic approach to saliency-guided visual attention modeling (<strong>SVAM</strong>) for use by autonomous underwater robots. Our proposed model, named <strong>SVAM-Net</strong>, integrates deep visual features at various scales and semantics for effective salient object detection (SOD) in natural underwater images. The SVAM-Net architecture is configured in a unique way to jointly accommodate bottom-up and top-down learning within two separate branches of the network while sharing the same encoding layers. We design dedicated spatial attention modules (<strong>SAMs</strong>) along these learning pathways to exploit the coarse-level and top-level semantic features for SOD at four stages of abstractions. 
+												</p>
+												<div class="row">
+												<div class="col-3 col-12-small">
+													<p align="justify">
+													Specifically, the bottom-up pipeline extracts semantically rich features from early encoding layers, which facilitates an abstract yet accurate saliency prediction at a fast rate; we denote this decoupled bottom-up pipeline as <strong>SVAM-NetLight</strong>. In addition, a residual refinement module (<strong>RRM</strong>) ensures fine-grained saliency estimation through the deeper top-down pipeline. Check out <a href="https://github.com/xahidbuffon/SVAM-Net">this repository</a> for the detailed SVAM-Net model architecture and its holistic learning pipeline.   
+													</p>
+												</div>
+												<div class="col-9 col-12-medium">
+													<a href="#SVAM" class="image"><img src="images/svamnet.jpg" alt="" /></a>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-12 col-12-medium">
+													<a href="#SVAM" class="image"><img src="images/svam_res1.jpg" alt="" /></a> 
+												</div>
+											</div>
+											<p align="justify">
+												In the implementation, we incorporate comprehensive end-to-end supervision of SVAM-Net by large-scale diverse training data consisting of both terrestrial and underwater imagery. Subsequently, we validate the effectiveness of its learning components and various loss functions by extensive ablation experiments. In addition to using existing datasets, we release a new challenging test set named <a href="http://irvlab.cs.umn.edu/resources/usod-dataset">USOD</a> for the benchmark evaluation of SVAM-Net and other underwater SOD models. By a series of qualitative and quantitative analyses, we show that SVAM-Net provides SOTA performance for SOD on underwater imagery, exhibits significantly better generalization performance on challenging test cases than existing solutions, and achieves fast end-to-end inference on single-board devices. Moreover, we demonstrate that a delicate balance between robust performance and computational efficiency makes SVAM-NetLight suitable for real-time use by visually-guided underwater robots. Please refer to the <a href="https://roboticsconference.org/program/papers/18/">paper</a> for detailed results; a video demonstration can be seen <a href="https://youtu.be/wEkTu2CPW-g">here</a>.  
+												</p>
 											</div>
 										</article>
 									</div>
@@ -283,6 +311,7 @@
 										<article>
 											<h3>Underwater Image Super-Resolution using Deep Residual Multipliers</h3>
 											<p>
+												<a href="https://arxiv.org/pdf/1909.09437.pdf">Paper (ICRA 2020)</a> &nbsp; 
 												<a href="https://arxiv.org/pdf/1909.09437.pdf">ArXiv</a> &nbsp; 
 												<a href="files/islam2020srdrm.txt">Bibliography</a> &nbsp;
 												<a href="https://github.com/xahidbuffon/SRDRM">GitHub</a> &nbsp;
@@ -398,7 +427,7 @@
 											<div class="col-5 col-12-medium">
 												<h3><i class="fas fa-user-friends"></i> Other Collaborators</h3>
 												<p align="justify">
-													I regulary collaborate with the current Ph.D. students at the IRVLAB. In particular, I heavily interacted with <a href="http://irvlab.cs.umn.edu/people/chelsey-edge">Chelsey Edge</a>, <a href="https://sites.google.com/view/sadman-sakib-enan/home">Sadman Sakib Enan</a>, <a href="http://irvlab.cs.umn.edu/people/michael-fulton">Michael Fulton</a>, and <a href="https://jungseokhong.github.io/">Jungseok Hong</a> on several <a href="Proj">projects</a> in the last few years. I am currently working with <a href="https://www.linkedin.com/in/jiawei-mo/">Jiawei Mo</a> and <a href="http://irvlab.cs.umn.edu/people/karin-de-langis">Karin de Langis</a> on separate projects. Also, <a href="https://www.linkedin.com/in/ruobing-wang-054562157/">Ruobing Wang</a> is working with me on the <a href="https://www.linkedin.com/in/ruobing-wang-054562157/">VAM</a> project.
+													I regulary collaborate with the current Ph.D. students at the IRVLAB. In particular, I heavily interacted with <a href="http://irvlab.cs.umn.edu/people/chelsey-edge">Chelsey Edge</a>, <a href="https://sites.google.com/view/sadman-sakib-enan/home">Sadman Sakib Enan</a>, <a href="http://irvlab.cs.umn.edu/people/michael-fulton">Michael Fulton</a>, and <a href="https://jungseokhong.github.io/">Jungseok Hong</a> on several <a href="Proj">projects</a> in the last few years. I am currently working with <a href="https://www.linkedin.com/in/jiawei-mo/">Jiawei Mo</a> and <a href="http://irvlab.cs.umn.edu/people/karin-de-langis">Karin de Langis</a> on separate projects. Also, <a href="https://www.linkedin.com/in/ruobing-wang-054562157/">Ruobing Wang</a> is working with me on the <a href="https://www.linkedin.com/in/ruobing-wang-054562157/">SVAM</a> project.
 												</p>
 											</div>
 											<div class="col-7 col-12-small">
@@ -442,7 +471,7 @@
 										<li>
 											<span class="opener"><strong>Research Highlights</strong></span>
 											<ul>
-												<li><a href="projects.html#VAM"><strong>VAM:</strong> Visual Attention Modeling</a></li>
+												<li><a href="projects.html#VAM"><strong>SVAM:</strong> Saliency-guided Visual Attention Modeling</a></li>
 												<li><a href="projects.html#SESR"><strong>Deep SESR:</strong> Simultaneous Enhancement and Super-Resolution</a></li>
 												<li><a href="projects.html#FUNIE"><strong>FUNIE-GAN:</strong> Fast Underwater Image Enhancement for Improved Perception</a></li>
 												<li><a href="projects.html#R2R"><strong>R2R-OpenPose:</strong> Robot-to-robot Relative Pose Estimation from Human Body-Pose</a></li>

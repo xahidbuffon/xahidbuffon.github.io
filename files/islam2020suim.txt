@@ -2,7 +2,7 @@
 @inproceedings{islam2020suim,
   title={{Semantic Segmentation of Underwater Imagery: Dataset and Benchmark}},
   author={Islam, Md Jahidul and Edge, Chelsey and Xiao, Yuyang and Luo, Peigen and Mehtaz, Muntaqim and Morse, Christopher and Enan, Sadman Sakib and Sattar, Junaed},
-  booktitle={To appear at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year={2020},
   organization={IEEE/RSJ}
 }
