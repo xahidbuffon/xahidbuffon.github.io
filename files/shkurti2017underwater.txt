@@ -1,0 +1,8 @@
+@inproceedings{shkurti2017underwater,
+  title={{Underwater Multi-Robot Convoying using Visual Tracking by Detection}},
+  author={Shkurti, Florian and Chang, Wei-Di and Henderson, Peter and Islam, Md Jahidul and Higuera, Juan Camilo Gamboa and Li, Jimmy and Manderson, Travis and Xu, Anqi and Dudek, Gregory and Sattar, Junaed},
+  booktitle={{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}},
+  year={2017},
+  organization={IEEE}
+}
+

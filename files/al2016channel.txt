@@ -1,0 +1,11 @@
+@article{al2016channel,
+  title={{Channel Assignment Techniques for Multi-radio Wireless Mesh Networks: A Survey}},
+  author={Al Islam, ABM Alim and Islam, Md Jahidul and Nurain, Novia and Raghunathan, Vijay},
+  journal={{IEEE Communications Surveys \& Tutorials}},
+  volume={18},
+  number={2},
+  pages={988--1017},
+  year={2016},
+  publisher={IEEE}
+}
+
