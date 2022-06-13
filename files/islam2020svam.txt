@@ -1,7 +1,8 @@
-
-@article{islam2020svam,
-    title={{SVAM: Saliency-guided Visual Attention Modeling by Autonomous Underwater Robots}},
-    author={Islam, Md Jahidul and Wang, Ruobing and de Langis, Karin and Sattar, Junaed},
-    journal={arXiv preprint arXiv:2011.06252},
-    year={2020}
+@inproceedings{islam2022svam,
+    author={Islam, Md Jahidul and Wang, Ruobing and Sattar, Junaed},
+    title={{SVAM: Saliency-guided Visual Attention Modeling 
+                by Autonomous Underwater Robots}},
+    booktitle={Robotics: Science and Systems (RSS)},
+    year={2022},
+    address={NY, USA}
 }
